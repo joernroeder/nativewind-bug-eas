@@ -3,7 +3,6 @@
     "name": "expo-nativewind-eas-updates",
     "slug": "expo-nativewind-eas-updates",
     "version": "1.0.0",
-
     "scheme": "expo-nativewind-eas-updates",
     "web": {
       "bundler": "metro",
@@ -21,29 +20,43 @@
     ],
     "experiments": {
       "typedRoutes": true,
-
       "tsconfigPaths": true
     },
-
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-
     "userInterfaceStyle": "light",
-
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.joernr.exponativewindeasupdates"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.joernr.exponativewindeasupdates"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9d0ac17e-9bc1-45c7-bf53-8fc96f0c4d09"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/9d0ac17e-9bc1-45c7-bf53-8fc96f0c4d09"
     }
   }
 }
