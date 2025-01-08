@@ -53,5 +53,6 @@
     "extends": "universe/native",
     "root": true
   },
-  "private": true
+  "private": true,
+  "packageManager": "pnpm@9.14.2"
 }
