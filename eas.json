@@ -14,11 +14,26 @@
       "android": {
         "image": "latest"
       },
-      "channel": "development"
+      "channel": "development",
+      "env": {
+        "APP_ENV": "development",
+        "FLIPPER_DISABLE": "1"
+      }
     },
     "preview": {
       "distribution": "internal",
-      "channel": "preview"
+      "ios": {
+        "simulator": true,
+        "image": "latest"
+      },
+      "android": {
+        "image": "latest"
+      },
+      "channel": "preview",
+      "env": {
+        "APP_ENV": "preview",
+        "FLIPPER_DISABLE": "1"
+      }
     },
     "production": {
       "autoIncrement": true,
